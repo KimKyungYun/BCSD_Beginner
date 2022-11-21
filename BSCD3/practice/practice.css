@@ -1,0 +1,39 @@
+button{
+    background-color: transparent;
+    border: 0;
+    opacity:1;
+}
+.start-button{
+    width:100px;
+    height: 50px;
+}
+.second-close{
+    width:100%;
+    height:40%;
+}
+.start-button:hover, .second-close:hover, .Xclose:hover{
+    background-color: black;
+    color: white;
+}
+.center{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.second-inner{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width:40%;
+    height:20%;
+    border: 1px solid black;
+}
+.Xclose{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.second-text{
+    transform: translate(-50%,-100%);
+}

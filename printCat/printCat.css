@@ -1,0 +1,16 @@
+#main{
+    display: flex;
+    flex-direction: column;
+}
+#catbutton{
+    width: 100px;
+    height: 30px;
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+#catbutton:hover{
+    background-color: black;
+    color: white;
+}
