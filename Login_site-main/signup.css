@@ -1,0 +1,23 @@
+span{
+    color: darkred;
+}
+#main_body{
+    padding:5%;
+    justify-items: center;
+    align-items: center;
+}
+.sign_up{
+    width:80%;
+    padding:5%;
+    border: 1px solid lightgray;
+}
+.log-in{
+    width:50%;
+    padding:5%;
+    border: 1px solid lightgray;
+}
+@media screen and (max-width: 768px) {
+    .log-in{
+        width: 80%;
+    }
+}
